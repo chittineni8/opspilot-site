@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpsPilot — Privacy Policy</title>
+<style>
+  :root{--navy:#0E2034;--lime:#8BC34A;}
+  *{box-sizing:border-box}
+  body{margin:0;background:#0A1A2C;color:#E7ECF1;font:16px/1.6 -apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 22px 80px}
+  h1{font-size:30px;margin:0 0 4px}
+  h1 .o{color:#fff}.h1 .p{color:var(--lime)}
+  h2{color:var(--lime);font-size:20px;margin:34px 0 8px}
+  .muted{color:#9AAAB8;font-size:14px;margin-bottom:24px}
+  a{color:#5FA8F5}
+  code{background:#16304a;padding:2px 6px;border-radius:5px;font-size:14px}
+  .card{background:#0E2034;border:1px solid #1c3a55;border-radius:14px;padding:8px 22px;margin-top:18px}
+  ul{padding-left:20px}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1><span class="o">Ops</span><span style="color:#8BC34A">Pilot</span> — Privacy Policy</h1>
+    <div class="muted">Last updated: 8 June 2026</div>
+
+    <p>OpsPilot is an independent, self-contained mobile client for DevOps tools
+    (currently <strong>Jenkins</strong> and <strong>GitLab</strong>). It has
+    <strong>no backend, no cloud account, and no analytics</strong>.</p>
+
+    <h2>What we collect</h2>
+    <p><strong>Nothing is collected or transmitted to us or any third party.</strong>
+    OpsPilot has no servers of its own.</p>
+
+    <h2>What is stored on your device</h2>
+    <ul>
+      <li><strong>Connection details</strong> you enter (name, URL, username) — stored locally.</li>
+      <li><strong>Credentials</strong> (API tokens / passwords / OAuth tokens / reverse-proxy
+      credentials) — stored in the platform secure enclave (Android Keystore).</li>
+      <li><strong>Cached data</strong> (jobs, builds, repos, preferences) — in a local database
+      <strong>encrypted at rest with AES-256</strong>; the key lives in the secure enclave.</li>
+    </ul>
+    <p>All of this stays on your device. Uninstalling the app removes it.</p>
+
+    <h2>Network access</h2>
+    <p>OpsPilot connects <strong>only</strong> to the DevOps server(s) <strong>you</strong>
+    configure (your Jenkins / GitLab), to display and control your builds and repositories.
+    It contacts no other endpoints.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Internet / network state</strong> — to reach your configured servers.</li>
+      <li><strong>Notifications</strong> (optional) — to alert you when a build finishes.</li>
+      <li><strong>Biometric</strong> (optional) — to lock the app behind your device biometric.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>OpsPilot is a developer tool and is not directed at children.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions, contact: <a href="mailto:gopi.k@codilar.com">gopi.k@codilar.com</a>.</p>
+
+    <h2>Trademark</h2>
+    <p>OpsPilot is an independent client. It is not affiliated with or endorsed by the Jenkins
+    project or GitLab. “Jenkins” and “GitLab” are trademarks of their respective owners.</p>
+  </div>
+</body>
+</html>
